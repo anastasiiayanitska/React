@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#FBF4F8;
+}
+.appCity{
+    width: 600px;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #c7bcc3 ;
+    border: 1px solid black;
+    border-radius: 16px;
+    margin-top: 15px;
+    padding: 20px;
+}
+  
+  .city_selector {
+    margin: 20px;
+    padding: 10px 15px;
+  }
+  
+  .city_card {
+    background-color: #B2A6B5;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    max-width: 500px;
+    display: inline-block;
+    text-align:left;
+  }
+  
+  .city_card img {
+    width: 100%;
+    height: auto;   
+  }
+  
+  .city_card h2 {
+    margin-bottom: 10px;
+  }
+  
+#city{
+     background-color: #B2A6B5;
+     padding: 5px 10px;
+     margin: 5px;
+}
+#city_description{
+    margin: 20px 0;
+}
+ul{
+    margin-left: 50px;
+}
+li{
+    margin: 10px 5px;
+}
+p{
+    font-size: 18px;
+}
+.appMath{
+    padding: 20px;
+    background-color: #c7bcc3 ;
+    border: 1px solid black;
+    border-radius: 16px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.submit{
+    padding: 10px 15px;
+    background-color: #B2A6B5;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;
+}
+.userAnswer{
+    padding: 10px 15px;
+    background-color: #FBF4F8;
+}
