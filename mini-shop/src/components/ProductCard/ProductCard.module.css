@@ -1,0 +1,9 @@
+.Wrapper {
+    padding: 40px;
+    border: 2px solid #00000026;
+    border-radius: 42px;
+}
+
+.Wrapper img {
+    width: 306px;
+}
