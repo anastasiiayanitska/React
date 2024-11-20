@@ -1,17 +1,15 @@
-import React, { useState, useMemo, useCallback } from 'react';
-import UserList from './UserList';
-import './App.css';
+import React, { useState, useMemo, useCallback } from "react";
+import UserList from "./UserList";
+import "./App.css";
 const App = () => {
- 
   const userList = [
-    { id: 1, name: 'Anastasiia' },
-    { id: 2, name: 'Vadym' },
-    { id: 3, name: 'Maksym' },
-    { id: 4, name: 'Anna' },
-      ];
+    { id: 1, name: "Anastasiia" },
+    { id: 2, name: "Vadym" },
+    { id: 3, name: "Maksym" },
+    { id: 4, name: "Anna" },
+  ];
 
-
-  const [filter, setFilter] = useState('');
+  const [filter, setFilter] = useState("");
 
   const filterUsers = useCallback(
     (filterText) => {
@@ -22,8 +20,10 @@ const App = () => {
     [userList]
   );
 
-  
-  const filteredUsers = useMemo(() => filterUsers(filter), [filter, filterUsers]);
+  const filteredUsers = useMemo(
+    () => filterUsers(filter),
+    [filter, filterUsers]
+  );
 
   return (
     <div>
