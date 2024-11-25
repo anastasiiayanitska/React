@@ -1,8 +1,8 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState, useEffect, useContext } from "react";
 import axios from "axios";
 import { CART_URL } from "../utils";
 
-const CartContext = createContext();
+export const CartContext = createContext();
 
 export default function CartContextProvider({ children }) {
   const [cartItems, setCartItems] = useState([]);
@@ -51,4 +51,8 @@ export default function CartContextProvider({ children }) {
       {children}
     </CartContext.Provider>
   );
+}
+
+export function useCartContext() {
+  return useContext(CartContext);
 }
