@@ -1,0 +1,39 @@
+.quoteContainer {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.quote {
+  margin-bottom: 20px;
+}
+
+.content {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.author {
+  font-size: 18px;
+  font-style: italic;
+  color: #555;
+}
+
+.newQuoteButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newQuoteButton:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+}
