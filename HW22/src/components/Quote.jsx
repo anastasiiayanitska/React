@@ -22,7 +22,7 @@ const Quote = () => {
       {status === "loading" && <p>Загрузка...</p>}
       {status === "succeeded" && (
         <div className={styles.quote}>
-          <p className={styles.content}>"{content}"</p>
+          <p className={styles.content}>{content}</p>
           <p className={styles.author}>- {author}</p>
         </div>
       )}
